@@ -1,0 +1,19 @@
+{
+   "name": "has-updates",
+   "main": "has-updates.js",
+   "version": "1.1.8",
+   "author": {
+      "url": "https://github.com/tpkn/"
+   },
+   "dependencies": {
+      "request": "latest"
+   },
+   "repository": "https://github.com/tpkn/has-updates",
+   "license": "MIT",
+   "keywords": [
+      "electron",
+      "update",
+      "app",
+      "check"
+   ]
+}
