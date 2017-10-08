@@ -22,7 +22,7 @@ module.exports = (link, current_version = '0.0.1') => {
          }
 
          try {
-        		let data = JSON.parse(body);
+            let data = JSON.parse(body);
             if(compare(data.version, current_version)){
                resolve({version: data.version, win: data.win, mac: data.mac, linux: data.linux});
             }else{
